@@ -19,21 +19,19 @@ form {
   font-family: 'Times New Roman', Times, serif;
   position: relative;
   color: rgb(0, 0, 0);
-  border-radius: 10px;
 }
 form header {
   background: rgb(172, 1, 1);
-  padding: 1em 1em;
+  padding: .5em .5em;
   color: rgb(0, 0, 0);
   font-size: 1.2em;
   font-weight: 600;
-  border-radius: 10px 10px 0 0;
 }
 form label {
   margin-left: 1em;
   display: inline-block;
-  margin-top: 1.5em;
-  margin-bottom: 5px;
+  margin-top: 1em;
+  margin-bottom: .25em;
   position: relative;
 }
 
@@ -54,8 +52,8 @@ form .help {
 }
 form button {
   position: relative;
-  margin-top: 1.5em;
-  margin-bottom: 1.5em;
+  margin-top: .5em;
+  margin-bottom: .5em;
   left: 50%;
   transform: translate(-50%, 0);
   font-family: 'Times New Roman', Times, serif;
