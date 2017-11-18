@@ -71,7 +71,7 @@ form button:hover {
   background: #fcff52;
 }
 
-#box{
+.box{
   background: rgb(240, 240, 240);
   opacity: .75;
   max-width: 95%;
@@ -79,4 +79,17 @@ form button:hover {
   border: .25em solid rgb(190, 184, 184);
   padding: 1em;
   margin: 1em;
+}
+
+.menu{
+  position:fixed; 
+  top:0; 
+  left:0;
+  margin: .4em;
+  padding: .15em .3em;
+  font-size: 2em;
+  color: rgb(185, 0, 0);
+  border: .1em solid rgb(185, 0, 0);
+  z-index: 99999;
+  cursor: pointer;
 }
