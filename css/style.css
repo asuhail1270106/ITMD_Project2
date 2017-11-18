@@ -1,8 +1,14 @@
+*{
+  text-decoration: none;
+  list-style: none;
+}
+
 html, body {
   border: 0;
   padding: 0;
   margin: 0;
   height: 100%;
+  
 }
 
 body {
@@ -12,6 +18,7 @@ body {
   justify-content: center;
   align-items: center;
   font-size: 1em;
+  
 }
 
 form {
@@ -99,13 +106,36 @@ form button:hover {
   position: fixed;
   top:0; 
   left:0;
-  max-width: 80%;
-  min-width: 25%;
+  width: 25%;
   margin-left: 0em;
   overflow: hidden;
   height: 100vh;
   max-height: 100vh;
   background-color: rgba(207, 91, 91, 0.9);
   z-index: 99998;
-  transition: all 0.5s;
+  transition: all 0.5s ease-out;
+  justify-content: center;
+  text-align: center;
+}
+
+.fa-arrow-circle-o-left{
+  position: absolute;
+  top: 1em;
+  right: 1em;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: all 0.5s ease-out;
+}
+
+.fa-arrow-circle-o-left:hover{
+  opacity: 1;
+}
+
+.boxed-text{
+  max-width: 85%;
+  justify-content: center;
+  text-align: center;
+  display: inline-block;
+  border: solid .1em;
+  margin-top: 3em;
 }
