@@ -70,3 +70,13 @@ form button {
 form button:hover {
   background: #fcff52;
 }
+
+#box{
+  background: white;
+  opacity: .75;
+  max-width: 95%;
+  min-width: 60%;
+  border: .25em solid white;
+  padding: 1em;
+  margin: 1em;
+}
