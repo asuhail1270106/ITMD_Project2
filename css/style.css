@@ -16,7 +16,8 @@ body {
 
 form {
   background: white;
-  width: 25%;
+  max-width: 90%;
+  min-width: 30%;
   font-family: 'Times New Roman', Times, serif;
   position: relative;
   color: rgb(0, 0, 0);
