@@ -117,14 +117,14 @@ a { color: inherit; }
   overflow: hidden;
   height: 100vh;
   max-height: 100vh;
-  background: url(../images/sky.jpg);
+  background: url(../images/space2.jpg);
   background-position: center center;
   /*background-color: rgba(160, 0, 0, 0.9);*/
   z-index: 99998;
   justify-content: center;
   text-align: center;
   color: white;
-  opacity: .7;
+  opacity: .8;
 }
 
 .sidebar-menu-fa-arrow{
