@@ -4,16 +4,17 @@
     <meta charset="UTF-8">
     <title>IIT Login Window</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="javascript.js"></script>
   </head>
 
   <body>
-    <form>
+    <form name = "login" onsubmit="return emptyFields()" action="welcome.html">
       <header>IIT Login Window</header>
-      <label>Username</label>
-      <input/>
+      <label>Username </label>
+      <input name = "username"/>
       <div class="help">It's the stuff before the "@hawk.iit.edu"</div>
-      <label>Password</label>
-      <input/>
+      <label>Password </label>
+      <input name = "password"/>
       <div class="help">Please enter your password.</div>
       <button>Login</button>
     </form>
