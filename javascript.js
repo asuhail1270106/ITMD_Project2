@@ -10,3 +10,18 @@ function emptyFields() {
         return false;
     }
 }
+
+$(document).ready(function(){
+	
+	$(".menu-button").click(function(){
+        $(".sidebar-menu").removeClass("hide-menu");
+        $(".sidebar-menu").addClass("show-menu");
+		$(".menu-button").addClass("show-menubutton");
+    });
+    
+    $(".fa-arrow-circle-o-left").click(function(){
+		$(".show-menu").addClass("hide-menu");
+		$(".menu-button").removeClass("show-menubutton");
+	});
+
+});
