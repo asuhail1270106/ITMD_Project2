@@ -11,19 +11,20 @@ html, body {
 }
 
 body {
-  background: url(../images/slide-galvin.jpg);
+  background: url(../images/slide-crown-hall.jpg);
   background-size: cover;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1em;
+  font-family: 'Spectral SC', Times, serif;
+  font-size: 1.0em;
 }
 
 form {
   background: white;
   max-width: 90%;
   min-width: 30%;
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Spectral SC', Times, serif;
   position: relative;
   color: rgb(0, 0, 0);
 }
@@ -63,7 +64,7 @@ form button {
   margin-bottom: .5em;
   left: 50%;
   transform: translate(-50%, 0);
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Spectral SC', Times, serif;
   color: rgb(0, 0, 0);
   background: rgb(172, 1, 1);
   padding: 5px 15px;
@@ -94,7 +95,7 @@ a { color: inherit; }
   top:0; 
   left:0;
   margin: .4em;
-  padding: .15em .3em;
+  padding: 0 .35em 0 .35em;
   font-size: 2em;
   color: rgb(185, 0, 0);
   border: .1em solid rgb(185, 0, 0);
@@ -104,7 +105,7 @@ a { color: inherit; }
 }
 
 .menu-button:hover{
-  color: rgba(129, 111, 111, 0.603);
+  color: rgb(255, 255, 255);
 }
 
 .sidebar-menu{
@@ -116,24 +117,35 @@ a { color: inherit; }
   overflow: hidden;
   height: 100vh;
   max-height: 100vh;
-  background-color: rgba(160, 0, 0, 0.9);
+  background: url(../images/space2.jpg);
+  background-position: center center;
+  /*background-color: rgba(160, 0, 0, 0.9);*/
   z-index: 99998;
   justify-content: center;
   text-align: center;
+  color: white;
+  opacity: .8;
+}
+
+.sidebar-menu-fa-arrow{
+font-size: 2.5em;
+}
+
+.sidebar-menu:hover{
+  opacity: .9;
 }
 
 .fa-arrow-circle-o-left{
   position: absolute;
-  top: 1em;
-  right: 1em;
+  top: .3em;
+  right: .3em;
   cursor: pointer;
-  opacity: 0.5;
   transition: all 0.5s ease-out;
+  color: white;
 }
 
 .fa-arrow-circle-o-left:hover{
-  opacity: 1;
-  color: white;
+  color: rgb(248, 20, 20);
 }
 
 .boxed-text{
@@ -142,15 +154,13 @@ a { color: inherit; }
   text-align: center;
   display: inline-block;
   border: solid .1em;
-  margin-top: 3em;
+  margin-top: 4em;
   cursor: pointer;
   transition: all 0.5s ease-out;
-  opacity: .7;
 }
 
 .boxed-text:hover{
-  opacity: 1;
-  color: white;
+  color: rgb(248, 20, 20);
 }
 
 .navbar{
@@ -165,12 +175,12 @@ a { color: inherit; }
   border-bottom: solid .1em;
   transition: all 0.5s ease-out;
   cursor: pointer;
-  opacity: .7;
+  font-size: 0.8em;
+  font-weight: 900;
 }
 
 .navbar-options:hover{
-  opacity: 1;
-  color: white;
+  color: rgb(248, 20, 20);
 }
 
 .hide-menu{
