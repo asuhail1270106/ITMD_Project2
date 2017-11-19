@@ -116,7 +116,7 @@ a { color: inherit; }
   overflow: hidden;
   height: 100vh;
   max-height: 100vh;
-  background-color: rgba(207, 91, 91, 0.9);
+  background-color: rgba(160, 0, 0, 0.9);
   z-index: 99998;
   justify-content: center;
   text-align: center;
@@ -133,7 +133,7 @@ a { color: inherit; }
 
 .fa-arrow-circle-o-left:hover{
   opacity: 1;
-  transition: all 0.5s ease-out;
+  color: white;
 }
 
 .boxed-text{
@@ -143,6 +143,14 @@ a { color: inherit; }
   display: inline-block;
   border: solid .1em;
   margin-top: 3em;
+  cursor: pointer;
+  transition: all 0.5s ease-out;
+  opacity: .7;
+}
+
+.boxed-text:hover{
+  opacity: 1;
+  color: white;
 }
 
 .navbar{
@@ -158,11 +166,11 @@ a { color: inherit; }
   transition: all 0.5s ease-out;
   cursor: pointer;
   opacity: .7;
-  transition: all 0.5s ease-out;
 }
 
 .navbar-options:hover{
   opacity: 1;
+  color: white;
 }
 
 .hide-menu{
