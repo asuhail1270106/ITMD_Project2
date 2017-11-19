@@ -77,6 +77,10 @@ form button:hover {
   background: #fcff52;
 }
 
+ul{
+  color: black;
+}
+
 .box{
   background: rgb(240, 240, 240);
   opacity: .75;
