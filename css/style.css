@@ -11,7 +11,7 @@ html, body {
 }
 
 #logo {
-  display: block;
+position: center; 
   margin-top: center;
   margin-top: center;
 }
