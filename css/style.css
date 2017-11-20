@@ -13,6 +13,7 @@ html, body {
 #logo {
 position: center; 
   margin-top: center;
+  display: block; 
   margin-top: center;
 }
 
