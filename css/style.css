@@ -11,9 +11,7 @@ html, body {
 }
 
 #logo {
-position: center; 
-  margin-top: center;
-  margin-top: center;
+    margin: 0 auto;
 }
 
 
