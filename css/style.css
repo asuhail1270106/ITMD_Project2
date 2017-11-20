@@ -201,6 +201,15 @@ font-size: 2.5em;
     text-align: center;
 }
 
+#classes {
+  font-size: .9em;
+  width: 400px;
+}
+
+#classed th,td {
+  max-width: 125px;
+  padding: 4px;
+}
 
 
 .navbar-options{
