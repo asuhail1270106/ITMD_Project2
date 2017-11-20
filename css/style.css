@@ -16,19 +16,6 @@ html, body {
 
 }
 
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: rgb(172, 1, 1);
-    color: white;
-    text-align: center;
-}
-
-
-
-
 body {
   background: url(../images/slide-crown-hall.jpg);
   background-size: cover;
@@ -204,6 +191,15 @@ font-size: 2.5em;
   margin-top: 5.5em;
 }
 
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(172, 1, 1);
+    color: white;
+    text-align: center;
+}
 
 
 
