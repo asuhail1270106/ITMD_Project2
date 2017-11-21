@@ -11,8 +11,8 @@ function emptyFields() {
     }
 }
 
-function add_row(tableID) {
-  var table = document.getElementById(tableID);
+function add_row(add_drop){
+  var table = document.getElementById(add_drop);
   var rowCount = table.rows.length;
   var row = table.insertRow(rowCount);
   #cell 1
@@ -37,9 +37,9 @@ function add_row(tableID) {
   cell4.appendChild(element3);
 }
 
-function delete_row(tableID) {
+function delete_row(add_drop) {
 try {
-  var table = document.getElementById(tableID);
+  var table = document.getElementById(add_drop);
   var rowCount = table.rows.length;
 for(var i=0; i<rowCount; i++) {
   var row = table.rows[i];
