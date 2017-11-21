@@ -11,6 +11,12 @@ function emptyFields() {
     }
 }
 
+function add_class(n)
+{
+    var tr = n.parentNode.parentNode.cloneNode(true);
+    document.getElementById('classes').appendChild(tr);
+}
+
 $(document).ready(function(){
 	
 	$(".menu-button").click(function(){
