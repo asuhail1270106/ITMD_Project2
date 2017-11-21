@@ -34,48 +34,46 @@
     <div class = "box">
       <h1>Add/Drop Page</h1>
       <div class = "box">
-      <h1>Display Classes: Fall 2017</h1>
-        <table id="classes">
-          <tbody>
-            <tr id="classeslist">
-              <td>Course</td>
-              <td>Title</td>
-              <td>Instructor</td>
-            </tr>
-            <tr>
-              <td>ITM 300</td>
-              <td>Intro to Python</td>
-              <td>Donald Mayson</td>
-            </tr>
-            <tr>
-              <td>ITM 302</td>
-              <td>Intro to Java</td>
-              <td>Jay Mao</td>
-            </tr>
-            <tr>
-              <td>ITM 303</td>
-              <td>Intro to Computer History</td>
-              <td>James Gibson</td>
-            </tr>
-            <tr>
-              <td>ITM 411</td>
-              <td>Project Management</td>
-              <td>Sam Yates </td>
-            </tr>
-            <tr>
-              <td><input type="submit" class="button" value="Add another line" onclick="add_class(this);" /></td>          
-            </tr>
-            <tr>
-              <th>Add Courses</th>
-            </tr>
-            <tr>
-              <td>Enter CRN: </td>
-            </tr>
-            <tr>
-              <td colspan="4"><button>SUBMIT</button></td>
-            </tr>
-        </table>
-      </div>
+      <h1>DClasses: Fall 2017</h1>
+  <input type="button" value="Add Row" onclick="add_row('classes')"/>
+	<input type="button" value="Delete Row" onclick="delete_row('classes')"/>
+	<table id="classes">
+    <tr>
+		  <td></td>
+		  <td>Course</td>
+		  <td>Title</td>
+		  <td>Professor</td>
+		<tr>
+			<td><input type="checkbox" name="chk"/></td>
+			<td> <input type="text" /> </td>
+			<td> <input type="text" /> </td>
+			<td> <input type="text" /> </td>
+		</tr>
+    <tr>
+ 		  <td><input type="checkbox" name="chk"/></td>
+      <td>ITM 300</td>
+      <td>Intro to Python</td>
+      <td>Donald Mayson</td>
+    </tr>
+    <tr>
+			<td><input type="checkbox" name="chk"/></td>
+      <td>ITM 302</td>
+      <td>Intro to Java</td>
+      <td>Jay Mao</td>
+    </tr>
+    <tr>
+			<td><input type="checkbox" name="chk"/></td>
+      <td>ITM 303</td>
+      <td>Intro to Computer History</td>
+      <td>James Gibson</td>
+    </tr>
+    <tr>
+		  <td><input type="checkbox" name="chk"/></td>
+      <td>ITM 411</td>
+      <td>Project Management</td>
+      <td>Sam Yates </td>
+    </tr>
+	</table>
     </div>
   </body>
     <div class="footer">
