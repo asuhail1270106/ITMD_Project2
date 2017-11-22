@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>Welcome Page</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Spectral SC' rel='stylesheet'>
+    <script src="https://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src="javascript.js"></script>
+  </head>
+
+  <body>
+    <div class = "menu-button">
+      <i class= "fa fa-bars"></i>
+    </div>
+    <div class = "sidebar-menu">
+      <div class = "sidebar-menu-fa-arrow">
+        <i class= "fa fa-arrow-circle-o-left "></i>
+      </div>
+      <h2 class = "boxed-text"><a href="https://web.iit.edu/">Illinois Institute of Technology</a></h2>
+      <ul class = "navbar">
+        <a href="classes.html"><li class = "navbar-options">View Your Classes</li></a>
+        <a href="add-drop.html"><li class = "navbar-options">Add/Drop Classes</li></a>
+        <a href="#"><li class = "navbar-options">View Your Grades</li></a>
+        <a href="#"><li class = "navbar-options">Change Your Grades</li></a>
+        <a href="#"><li class = "navbar-options">Change Other Student's Grades</li></a>
+        <a href="welcome.html"><li class = "navbar-options">Back to Welcome Page</li></a>
+      </ul>
+      <div class = "boxed-text-2">
+        <a href="index.html"><i class= "fa fa-sign-out"> Sign Out</i></a>
+      </div>
+    </div>
+    <div class = "box">
+      <h1>Add/Drop Page</h1>
+      <div class = "box">
+      <h1>DClasses: Fall 2017</h1>
+  <input type="button" value="Add Row" onclick="add_row('classes')"/>
+	<input type="button" value="Delete Row" onclick="delete_row('classes')"/>
+	<table id="classes">
+    <tr>
+		  <td></td>
+		  <td>Course</td>
+		  <td>Title</td>
+		  <td>Professor</td>
+		<tr>
+			<td><input type="checkbox" name="chk"/></td>
+			<td> <input type="text" /> </td>
+			<td> <input type="text" /> </td>
+			<td> <input type="text" /> </td>
+		</tr>
+    <tr>
+ 		  <td><input type="checkbox" name="chk"/></td>
+      <td>ITM 300</td>
+      <td>Intro to Python</td>
+      <td>Donald Mayson</td>
+    </tr>
+    <tr>
+			<td><input type="checkbox" name="chk"/></td>
+      <td>ITM 302</td>
+      <td>Intro to Java</td>
+      <td>Jay Mao</td>
+    </tr>
+    <tr>
+			<td><input type="checkbox" name="chk"/></td>
+      <td>ITM 303</td>
+      <td>Intro to Computer History</td>
+      <td>James Gibson</td>
+    </tr>
+    <tr>
+		  <td><input type="checkbox" name="chk"/></td>
+      <td>ITM 411</td>
+      <td>Project Management</td>
+      <td>Sam Yates </td>
+    </tr>
+	</table>
+    </div>
+  </body>
+    <div class="footer">
+  <p>© 2017 Illinois Institute of Technology. All Rights Reserved.</p>
+</div>  
+</html>

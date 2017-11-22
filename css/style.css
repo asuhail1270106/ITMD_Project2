@@ -1,0 +1,241 @@
+*{
+  text-decoration: none;
+  list-style: none;
+}
+
+html, body {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+}
+
+#logo {
+    margin: 0 auto;
+      width: 90%;
+
+}
+
+body {
+  background: url(../images/slide-crown-hall.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Spectral SC', Times, serif;
+  font-size: 1.0em;
+}
+
+form {
+  background: white;
+  max-width: 90%;
+  min-width: 30%;
+  font-family: 'Spectral SC', Times, serif;
+  position: relative;
+  color: rgb(0, 0, 0);
+}
+form header {
+  background: rgb(172, 1, 1);
+  padding: .5em .5em;
+  color: rgb(0, 0, 0);
+  font-size: 1.2em;
+  font-weight: 600;
+}
+form label {
+  margin-left: 1em;
+  display: inline-block;
+  margin-top: 1em;
+  margin-bottom: .25em;
+  position: relative;
+}
+
+form input {
+  display: block;
+  position: relative;
+  width: 80%;
+  margin-left: 1em;
+  padding: .5em .5em;
+  font-size: 1em;
+  border-radius: 3px;
+  border: 1px solid rgb(0, 0, 0);
+}
+form .help {
+  margin-left: 1.2em;
+  font-size: 0.75em;
+  color: rgb(172, 1, 1);
+}
+form button {
+  position: relative;
+  margin-top: .5em;
+  margin-bottom: .5em;
+  left: 50%;
+  transform: translate(-50%, 0);
+  font-family: 'Spectral SC', Times, serif;
+  color: rgb(0, 0, 0);
+  background: rgb(172, 1, 1);
+  padding: 5px 15px;
+  font-size: 1.3em;
+  font-weight: 400;
+  border-radius: 3px;
+  box-shadow: 0px 0px 10px rgba(51, 51, 51, 0.4);
+}
+
+form button:hover {
+  background: #fcff52;
+}
+
+a { color: inherit; }
+
+.box{
+  background: rgb(240, 240, 240);
+  opacity: .75;
+  max-width: 95%;
+  min-width: 60%;
+  border: .25em solid rgb(190, 184, 184);
+  padding: 1em;
+  margin: 1em;
+}
+
+.menu-button{
+  position:fixed; 
+  top:0; 
+  left:0;
+  margin: .4em;
+  padding: 0 .35em 0 .35em;
+  font-size: 2em;
+  color: rgb(185, 0, 0);
+  border: .1em solid rgb(185, 0, 0);
+  z-index: 99999;
+  cursor: pointer;
+  opacity: 1;
+}
+
+.menu-button:hover{
+  color: rgb(255, 255, 255);
+}
+
+.sidebar-menu{
+  position: fixed;
+  top:0; 
+  left:0;
+  width: 25%;
+  transform: translate(-100%, 0);
+  overflow: hidden;
+  height: 100vh;
+  max-height: 100vh;
+  background: url(../images/moving-circle.gif);
+  background-position: center center;
+  /*background-color: rgba(160, 0, 0, 0.9);*/
+  z-index: 99998;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  opacity: .8;
+}
+
+.sidebar-menu-fa-arrow{
+font-size: 2.5em;
+}
+
+.sidebar-menu:hover{
+  opacity: .9;
+}
+
+.fa-arrow-circle-o-left{
+  position: absolute;
+  top: .3em;
+  right: .3em;
+  cursor: pointer;
+  transition: all 0.5s ease-out;
+  color: white;
+}
+
+.fa-arrow-circle-o-left:hover{
+  color: rgb(248, 20, 20);
+}
+
+.boxed-text{
+  width: 80%;
+  justify-content: center;
+  text-align: center;
+  display: inline-block;
+  border: solid .1em;
+  margin-top: 4em;
+  cursor: pointer;
+  transition: all 0.5s ease-out;
+}
+
+.boxed-text:hover{
+  color: rgb(248, 20, 20);
+}
+
+.boxed-text-2{
+  justify-content: center;
+  text-align: center;
+  display: inline-block;
+  border: solid .1em;
+  margin-top: 6em;
+  padding: 0em 1em;
+  cursor: pointer;
+  transition: all 0.5s ease-out;
+}
+
+.boxed-text-2:hover{
+  color: rgb(248, 20, 20);
+}
+
+.navbar{
+  justify-content: center;
+  text-align: center;
+  width: 80%;
+  margin-top: 5.5em;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(172, 1, 1);
+    color: white;
+    text-align: center;
+}
+
+#classes {
+  font-size: .9em;
+  width: 400px;
+}
+
+#classed th,td {
+  max-width: 125px;
+  padding: 4px;
+}
+
+
+.navbar-options{
+  justify-content: center;
+  padding: .8em 0;
+  transition: all 0.5s ease-out;
+  cursor: pointer;
+  font-size: 0.8em;
+  font-weight: 900;
+}
+
+.navbar-options:hover{
+  color: rgb(248, 20, 20);
+}
+
+.hide-menu{
+  margin-left: -50%;
+  transition: all 0.5s ease-out;
+}
+
+.show-menu{
+  transform: translate(0, 0);
+  transition: all 0.5s ease-out;
+}
+
+.show-menubutton{
+  opacity: 0;
+  transition: all 0.5s ease-out;
+}
