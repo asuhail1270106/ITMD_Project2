@@ -88,7 +88,7 @@ a { color: inherit; }
 
 .box{
   background: rgb(240, 240, 240);
-  opacity: .75;
+  opacity: .95;
   max-width: 95%;
   min-width: 60%;
   border: .25em solid rgb(190, 184, 184);
@@ -173,10 +173,11 @@ font-size: 2.5em;
   text-align: center;
   display: inline-block;
   border: solid .1em;
-  margin-top: 6em;
+  margin-top: 3em;
   padding: 0em 1em;
   cursor: pointer;
   transition: all 0.5s ease-out;
+  font-size: 1.3em;
 }
 
 .boxed-text-2:hover{
@@ -215,7 +216,7 @@ font-size: 2.5em;
   padding: .8em 0;
   transition: all 0.5s ease-out;
   cursor: pointer;
-  font-size: 0.8em;
+  font-size: 1em;
   font-weight: 900;
 }
 
