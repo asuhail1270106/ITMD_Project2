@@ -15,20 +15,20 @@ function add_row(add_drop){
   var table = document.getElementById(add_drop);
   var rowCount = table.rows.length;
   var row = table.insertRow(rowCount);
-  #cell 1
+  //cell 1;
   var cell1 = row.insertCell(0);
   var element1 = document.createElement("input");
   element1.type = "checkbox";
   element1.name="chkbox[]";
   cell1.appendChild(element1);
-  #cell 2
+  //cell 2
   var cell2 = row.insertCell(1);
   var cell3 = row.insertCell(2);
   var element2 = document.createElement("input");
   element2.type = "text";
   element2.name = "txtbox[]";
   cell3.appendChild(element2);
-  #cell 3
+  //cell 3
   var cell4 = row.insertCell(3);
   var element2 = document.createElement("input");
   element3.type = "text";
