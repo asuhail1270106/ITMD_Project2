@@ -29,7 +29,7 @@ body {
 form {
   background: white;
   max-width: 90%;
-  min-width: 30%;
+  min-width: 25%;
   font-family: 'Spectral SC', Times, serif;
   position: relative;
   color: rgb(0, 0, 0);
@@ -52,7 +52,7 @@ form label {
 form input {
   display: block;
   position: relative;
-  width: 80%;
+  width: 90%;
   margin-left: 1em;
   padding: .5em .5em;
   font-size: 1em;
@@ -123,8 +123,7 @@ a { color: inherit; }
   overflow: hidden;
   height: 100vh;
   max-height: 100vh;
-  background: url(../images/moving-circle.gif);
-  background-position: center center;
+  background: black;
   /*background-color: rgba(160, 0, 0, 0.9);*/
   z-index: 99998;
   justify-content: center;
