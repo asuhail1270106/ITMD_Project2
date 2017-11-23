@@ -52,7 +52,8 @@ form label {
 form input {
   display: block;
   position: relative;
-  width: 90%;
+  min-width: 85%;
+  max-width: 90%;
   margin-left: 1em;
   padding: .5em .5em;
   font-size: 1em;
