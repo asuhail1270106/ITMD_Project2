@@ -536,6 +536,8 @@ form button:hover {
 
 a { color: inherit; }
 
+header { text-align: center; }
+
 .box{
   background: rgb(240, 240, 240);
   opacity: .95;
