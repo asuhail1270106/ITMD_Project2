@@ -20,4 +20,4 @@ a field. This is impressive since Github pages serves only static content and th
 
 Denis worked on making the page mobile-friendly. He did fairly well considering that this is a giant pain in the neck. Mobile Friendly
 queries still elude me, but I get how they work. Denis was able to implement two queries for small and larger screens. He also added the
-normalization CS
+normalization CSS.
